@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; list-style-image: none;list-style-type: none;}
+html{
+	background-color: #000000;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-text-size-adjust:none;
+	background-attachment: fixed;
+	background-image: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+img { border:none;}
+.fix {clear:both;font-size: 0px;}
+.zhezhao {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: transparent url(../images/pattern.png) repeat top left;
+	z-index:10;
+}
+
+
+#container {
+	position:absolute;
+	z-index:50;
+	top: 12%;
+	left: 5%;
+	width: 25%;
+	text-align: center;
+}
+.shopimg{max-width:100%;height:auto;text-align: center;}
+
+.tongji{
+	width: 200px;
+	filter:alpha(opacity=50);
+	position: absolute;
+	z-index: 1;
+	left: 0px;
+	height: 20px;
+	top: -20px;
+}
+.tongji a {color:#000000;text-decoration:none;}
+.tongji a:hover {text-decoration:none;color: #276045;}
+
+.copyright {
+	height: 50px;
+	position: absolute;
+	bottom: 8%;
+	z-index: 100;
+	left: 5%;
+	width: 50%;
+}
+
+.copyright dd.logo {
+	width: 120px;
+	height: 27px;
+	float: left;
+}
+.copyright dd.logo a {
+	text-decoration:none;
+	display: block;
+	height: 27px;
+	width: 108px;
+	background-image: url(../images/logo_liang.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+.copyright dd.logo a:hover {
+	text-decoration: none;
+	background-image: url(../images/logo_liang.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.copyright dd.b {
+	height: 27px;
+	float: left;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 22px;
+	color: #FFFFFF;
+}
+.copyright dd.b a {
+	text-decoration:none;
+	color: #FFFFFF;
+}
+.copyright dd.b a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}

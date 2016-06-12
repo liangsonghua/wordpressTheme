@@ -1,0 +1,146 @@
+/*
+Theme Name: wexin
+Theme URI: http://www.liangsonghua.me
+Description: 高仿微信公众号文章
+Version: 1.0
+Author:liangsonghua
+Author URI: https://github.com/liangsonghua
+
+*/
+@charset "utf-8";
+
+
+* { margin:0; padding:0; list-style-image: none;list-style-type: none;}
+html{
+    background-color: #000000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-text-size-adjust:none;
+    background-attachment: fixed;
+    background-image: url(images/bg3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+body {
+    font-family:Verdana;
+    font-size:11px;
+}
+img { border:none;}
+.fix {clear:both;height: 1px;font-size: 0px;}
+
+::-webkit-scrollbar{width:12px;height:12px}
+::-webkit-scrollbar-button:vertical{display:none}
+::-webkit-scrollbar-track:vertical{background-color:black}
+::-webkit-scrollbar-track-piece{background:#F4F4F4}
+::-webkit-scrollbar-thumb:vertical{background-color:#8E8E8E;border-radius:6px}
+::-webkit-scrollbar-thumb:vertical:hover{background-color:#3B3B3B}
+::-webkit-scrollbar-corner:vertical{background-color:#535353}
+::-webkit-scrollbar-resizer:vertical{background-color:#FF6E00}
+
+
+.weixin01 {
+    background-image: url(images/ewm.png);
+    height: 534px;
+    width: 262px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    left: 17%;
+    top: 15%;
+}
+.weixin02 {
+    background-image: url(images/wx_di.png);
+    width: 350px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 15px;
+    position: absolute;
+    top: 7%;
+    right: 13%;
+}
+.wx_top {
+    background-image: url(images/wx_top.png);
+    height: 45px;
+    width: 350px;
+    background-repeat: no-repeat;
+}
+.wx_top a {
+    text-decoration:none;
+    display: block;
+    height: 45px;
+    width: 45px;
+}
+.wx_top a:hover {
+    background-image: url(images/wx_top_an2.png);
+    background-repeat: no-repeat;
+}
+.wx_z {
+    background-color: #F4F4F4;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.copyright {
+    height: 80px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    position: absolute;
+    top: 580px;
+    width: 390px;
+}
+.copyright a {
+    color:#FFF;
+    text-decoration:none;
+    display: block;
+    height: 50px;
+    padding-left: 120px;
+    width: 270px;
+    line-height: 50px;
+    background-image: url(images/logo_liangsonghua.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+.copyright a:hover {
+    text-decoration:none;
+    color: #FFF;
+    background-image: url(images/logo_liangsonghua.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.statistics {
+    height: 15px;
+    font-family: Verdana;
+    font-size: 11px;
+    color: #353535;
+    text-align: right;
+    position: absolute;
+    top: -15px;
+}
+.statistics a { color:#353535; text-decoration:none;}
+.statistics a:hover {text-decoration:none;}
+.logo {
+    height: 36px;
+    width: 120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.logo a {
+    text-decoration:none;
+    display: block;
+    height: 36px;
+    width: 120px;
+    background-image: url(images/liangsonghua_logo.png);
+    background-repeat: no-repeat;
+}
+.logo a:hover {
+    text-decoration: none;
+    background-image: url(images/liangsonghua_logo.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}

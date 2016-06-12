@@ -1,0 +1,204 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; list-style-image: none;list-style-type: none;}
+html{
+	background-color: #F4F4F4;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	-webkit-text-size-adjust:none;
+}
+
+body {
+	background-color: #F4F4F4;
+}
+img { border:none;}
+.fix {clear:both;height: 1px;font-size: 0px;}
+
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-button:vertical{display:none}
+::-webkit-scrollbar-track:vertical{background-color:black}
+::-webkit-scrollbar-track-piece{background:#F4F4F4}
+::-webkit-scrollbar-thumb:vertical{background-color:#8E8E8E;border-radius:5px}
+::-webkit-scrollbar-thumb:vertical:hover{background-color:#3B3B3B}
+::-webkit-scrollbar-corner:vertical{background-color:#535353}
+::-webkit-scrollbar-resizer:vertical{background-color:#FF6E00}
+
+.liangsonghua {
+	height: 75px;
+	padding-top: 10px;
+	background-image: url(../images/weixin_g.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	margin-right: auto;
+	margin-left: auto;
+	width: 272px;
+}
+.liangsonghua dt {
+	margin-right:12px;
+	float: left;
+}
+.liangsonghua dt img {
+	height: 52px;
+	width: 52px;
+	display: block;
+}
+.liangsonghua dd.title {
+	font-size:15px;
+	height:20px;
+	line-height:15px;
+	font-family: "΢���ź�";
+	color: #333333;
+	padding-top: 7px;
+	display: block;
+	float: left;
+	width: 200px;
+	font-weight: bold;
+}
+.liangsonghua dd.des {
+	color:#9A9A9A;
+	line-height:25px;
+	font-family: "΢���ź�";
+	font-size: 12px;
+	background-image: url(../images/weixin_renzheng.png);
+	background-size:14px 14px;
+	background-repeat: no-repeat;
+	text-indent: 18px;
+	display: block;
+	float: left;
+	width: 200px;
+	background-position: left 5px;
+}
+
+.time {
+	height: 20px;
+	width: 116px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 20px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: auto;
+	background-color: #BDBDBD;
+	-webkit-border-radius: 10px;
+	margin-right: auto;
+}
+.wenzhang {
+	border: 1px solid #DDD;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.wenzhang a {
+	text-decoration:none;
+}
+.wenzhang a:hover {text-decoration:none;}
+.wenzhang_wenzi {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.wenzhang_wenzi a {
+	text-decoration:none;
+}
+.wenzhang_wenzi a:hover {text-decoration:none;}
+
+
+.wz_top {
+	height: 10px;
+	width: 100%;
+}
+.wz_biaoti {
+	font-family: "΢���ź�";
+	font-size: 15px;
+	color: #333333;
+	padding-top: 5px;
+}
+.wz_img {
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.wz_img img {
+	width: 100%;
+	height: auto;
+	background-color: #CCCCCC;
+	background-image: url(../images/loading.gif);
+	background-position: right top;
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+.wz_jj {
+	font-family: "΢���ź�";
+	font-size: 12px;
+	color: #9A9A9A;
+	padding-bottom: 10px;
+}
+.wz_more {
+	background-image: url(../images/more.gif);
+	font-family: "΢���ź�";
+	font-size: 12px;
+	color: #333333;
+	line-height: 46px;
+	height: 46px;
+	background-position: right center;
+	background-repeat: no-repeat;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #E5E5E5;
+}
+.touxiang {
+	width: 42px;
+	text-align: center;
+	float: left;
+	height: 42px;
+}
+.wenzi_k {
+	float: right;
+	background-image: url(../images/frame_wz2_top.gif);
+	padding-left: 7px;
+	background-repeat: no-repeat;
+	background-position: left 10px;
+	width: 80%;
+}
+.wenzi_top {
+	font-family: "΢���ź�";
+	font-size: 12px;
+	color: #3A4A16;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-right: 13px;
+	padding-left: 13px;
+	padding-bottom: 10px;
+	background-color: #B2E34B;
+	-webkit-border-radius: 10px;
+}
+.wenzi_top a { color:#FFFFFF; text-decoration:none;}
+.wenzi_top a:hover {
+	text-decoration:underline;
+}
+
+.wenzi_di {
+	width: 263px;
+	background-image: url(../images/frame_wz2_di.gif);
+	height: 14px;
+}
+.statistics {
+	height: 15px;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #F4F4F4;
+	width: 312px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.statistics a { color:#F4F4F4; text-decoration:none;}
+.statistics a:hover {text-decoration:none;}
